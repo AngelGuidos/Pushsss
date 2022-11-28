@@ -1,0 +1,108 @@
+.modal1-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.formuser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.name-inputs{
+    width: 300px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    border-color: #FECD70;
+    border-style: solid;
+    color: black;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.name-inputs:focus, select:focus{
+    outline: #DDB263;
+}
+
+.name-inputs::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.reg-inputs{
+    width: 630px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    border-color: #FECD70;
+    border-style: solid;
+    color: black;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.reg-inputs:focus, select:focus{
+    outline: #DDB263;
+}
+
+.reg-inputs::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.birth-date {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.reg-labels {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5px;
+}
+
+.reg-gender{
+    border-color: #FFFFFF;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.radio-btns{
+    margin-right: 20px;
+}
+
+.reg-btn{
+    background: #FECD70;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.reg-btn:hover{
+    transition-property: background;
+    transition-duration: 200ms;
+    background: #DDB263;
+    cursor: pointer;    
+}

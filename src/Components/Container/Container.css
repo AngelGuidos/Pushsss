@@ -1,0 +1,113 @@
+.main-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    flex-wrap: wrap;
+}
+
+.logincard {
+    width: 400px;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logincomponents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-inputs{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    border-color: #FECD70;
+    border-style: solid;
+    color: black;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.login-inputs:focus, select:focus{
+    outline: #DDB263;
+}
+
+.login-inputs::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.loginbtn{
+    background: #FECD70;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.loginbtn:hover{
+    transition-property: background;
+    transition-duration: 200ms;
+    background: #DDB263;
+    cursor: pointer;    
+}
+
+.Resetpswd {
+    color: #000000;
+    text-decoration: inherit;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.Resetpswd:hover {
+    cursor: pointer;
+    color: #DDB263;
+}
+
+.login-divider{
+    color: #DBDDC9;
+    width: 350px;
+}
+
+.registerbtns{
+    margin-top: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.rbtns {
+    background: #FECD70;
+    width: 175px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.rbtns:hover{
+    transition-property: background;
+    transition-duration: 200ms;
+    background: #DDB263;
+    cursor: pointer;    
+}
